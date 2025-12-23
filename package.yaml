@@ -33,3 +33,8 @@ tests:
     - hspec
     - temporary
     - unliftio
+  sanity:
+    source-dirs: sanity
+    main: sanityTest.hs
+    dependencies:
+    - githash
